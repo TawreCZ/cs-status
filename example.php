@@ -22,13 +22,13 @@ $servers = array(
 		
 		?>
 		<div>
-			IPserveru: <?=$server->host?><br>
-			Online: <?=$server->online? "Ano": "Ne"?><br>
-			Jméno: <?=$server->name?><br>
-			Mapa: <?=$server->map?><br>
-			Hráèù: <?=$server->num_players?> / <?=$server->max_players?><br>
-			Mod: <?=$server->dir?><br>
-			Popis: <?=$server->desc?><br>
+			IP: <?=$server->host?><br>
+			Online: <?=$server->online? "Yes": "No"?><br>
+			Name: <?=$server->name?><br>
+			Map: <?=$server->map?><br>
+			Players: <?=$server->num_players?> / <?=$server->max_players?><br>
+			Mode: <?=$server->dir?><br>
+			Description: <?=$server->desc?><br>
 		</div>
 		<br>
 		<?php } ?>
